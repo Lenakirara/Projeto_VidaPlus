@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/telemedicina.css">
+    <title>Vida Plus - Telemedicina</title>
+</head>
+
+<body>
+
+    <header class="header-vida-plus">
+        <div class="header-conteudo header-grid">
+
+            <div class="logo-area">
+                <img src="./img/logo-vidaplus.png" alt="Vida Plus">
+            </div>
+
+            <h1 class="titulo-header">Telemedicina</h1>
+
+            <a href="home.html" class="btn btn-outline-primary">Home</a>
+
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="row mt-4 justify-content-center">
+            <div class="col-md-8">
+                <div class="mb-4">
+                    <div class="card shadow">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title mb-0">Sua Agenda de Consultas</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="agenda-lista" class="list-group">
+                                <p class="text-muted">Carregando seus agendamentos...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="mb-4">
+                    
+                    <div class="card shadow">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="card-title mb-0">Sala de Atendimento e Prontuário</h5>
+                        </div>
+                        <div class="card-body">
+
+                            <div id="atendimento-info" class="p-3 mb-3 border rounded">
+                                <h6 class="text-secondary">Paciente Atual: <strong id="nome-paciente-atual">Nenhum em
+                                        atendimento</strong></h6>
+                                <p class="small mb-2">Próxima Consulta: <span id="horario-proxima-consulta">--</span>
+                                </p>
+                            </div>
+
+                            <div id="video-area" class="bg-dark text-white text-center p-5 rounded mb-3"
+                                style="min-height: 200px;">
+                                <p class="mb-3">Sala de Videochamada</p>
+                                <button id="iniciar-consulta-btn" class="btn btn-warning btn-lg disabled">Iniciar
+                                    Videochamada</button>
+                            </div>
+
+                            <div id="prontuario-form">
+                                <h6>Registro de Atendimento e Prescrição</h6>
+                                <textarea id="prontuario-texto" class="form-control mb-3" rows="4"
+                                    placeholder="Observações do Prontuário, Sintomas e Diagnóstico..."></textarea>
+
+                                <input type="text" id="prescricao-texto" class="form-control mb-3"
+                                    placeholder="Prescrição (Ex: Dipirona 500mg - 1x ao dia por 5 dias)">
+
+                                <div class="d-grid">
+                                    <button id="finalizar-atendimento-btn" class="btn btn-success disabled">Finalizar e
+                                        Registrar Prontuário</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/telemedicina.js"></script>
+
+</body>
+
+</html>

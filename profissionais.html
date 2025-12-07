@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/profissionais.css">
+  <title>Vida Plus - Cadastro de Profissionais</title>
+</head>
+
+<body>
+
+  <header class="header-vida-plus">
+    <div class="header-conteudo header-grid">
+      <div class="logo-area">
+        <img src="./img/logo-vidaplus.png" alt="Vida Plus">
+      </div>
+      <h1 class="titulo-header">Gestão de Profissionais de Saúde</h1>
+      <a href="home.html" class="btn btn-outline-primary">Home</a>
+
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h3 id="profissionais-cadastrados" class="mb-3">Profissionais de Saúde</h3>
+
+      <p class="text-muted">
+        Lista de profissionais disponíveis para agendamento e atendimento.
+      </p>
+
+      <ul id="listaProfissionais" class="list-group"></ul>
+    </section>
+
+  </main>
+
+  <script src="./js/profissionais.js"></script>
+</body>
+
+</html>

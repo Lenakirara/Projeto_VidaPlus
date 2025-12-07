@@ -1,0 +1,40 @@
+.header-vida-plus {
+  width: 100%;
+  background-color: var(--cor-primaria);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.header-conteudo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-area img {
+  height: 55px;
+}
+
+.logo-area h1 {
+  display: none;
+}
+
+.titulo-header {
+  text-align: center;
+  margin: 0;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+}
+
+.header-conteudo a.btn {
+  justify-self: end;
+}

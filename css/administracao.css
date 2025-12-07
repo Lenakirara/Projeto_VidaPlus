@@ -1,0 +1,118 @@
+.header-vida-plus {
+  width: 100%;
+  background-color: var(--cor-primaria);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.header-conteudo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-area img {
+  height: 55px;
+}
+
+.logo-area h1 {
+  display: none;
+}
+
+.titulo-header {
+  text-align: center;
+  margin: 0;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+}
+
+.header-conteudo a.btn {
+  justify-self: end;
+}
+
+
+
+.card {
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.card-header {
+    font-weight: 700;
+    padding: 1rem 1.25rem; 
+    font-size: 1.05rem;
+    display: flex; 
+    align-items: center; 
+    background-color: var(--cor-terciaria); 
+    color: white;
+}
+
+
+.card-header .card-title {
+    margin: 0;
+}
+
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+.card-body strong {
+    color: var(--cor-secundaria);
+}
+
+
+
+.card-body > .p-2.border.rounded {
+    background-color: #f0f3f6;
+}
+
+
+.card-body > .p-3.border.rounded.bg-light {
+    background-color: #e9ecef;
+}
+
+#leitos-lista .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 0.5rem;
+    margin-bottom: 5px;
+}
+
+#leitos-lista .list-group-item:hover {
+    filter: brightness(0.95);
+}
+
+
+#suprimentos-lista {
+    font-size: 0.95rem;
+}
+
+
+#suprimento-nome, #suprimento-quantidade {
+    background-color: white; 
+    border-color: var(--cor-terciaria);
+}
+
+
+.card-body .d-grid.gap-2 button {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btn-secondary:hover {
+    background-color: var(--cor-secundaria);
+    border: none;
+}
