@@ -1,6 +1,6 @@
 # 🏥 Boas vindas ao repositório SGHSS VidaPlus: Sistema de Gestão Hospitalar e de Saúde (Simulado)
 
-Este projeto é um **protótipo Front-end** de conclusão do curso de ADS na UNINTER. Um Sistema de Gestão Hospitalar e de Saúde (SGHSS). Foi desenvolvido com foco na simulação das funcionalidades críticas de **Telemedicina** e **Compliance (LGPD)**, conforme os requisitos do Projeto Multidisciplinar.
+Este projeto é um **protótipo Front-end** de conclusão do curso de ADS na UNINTER. Um Sistema de Gestão Hospitalar e de Saúde [(SGHSS)](https://lenakirara.github.io/Projeto_VidaPlus/). Foi desenvolvido com foco na simulação das funcionalidades críticas de **Telemedicina** e **Compliance (LGPD)**, conforme os requisitos do Projeto Multidisciplinar.
 
 O sistema simula o fluxo de trabalho de profissionais de saúde, utilizando o `localStorage` do navegador para persistência de dados.
 
